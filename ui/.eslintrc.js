@@ -1,11 +1,16 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    node: true
   },
   extends: [
     'plugin:vue/essential',
-    'standard'
+    'standard',
+    "@nuxtjs/eslint-config-typescript",
+    'plugin:nuxt/recommended',
+    'plugin:prettier/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -14,8 +19,10 @@ module.exports = {
   },
   plugins: [
     'vue',
-    '@typescript-eslint'
+    '@typescript-eslint',
+     "nuxt"
   ],
   rules: {
+    "max-len": "off"
   }
 }
