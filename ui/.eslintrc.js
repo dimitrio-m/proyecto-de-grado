@@ -6,23 +6,18 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/essential',
     'standard',
-    "@nuxtjs/eslint-config-typescript",
-    'plugin:nuxt/recommended',
-    'plugin:prettier/recommended'
+    'plugin:vue/essential',
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:nuxt/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
     sourceType: 'module'
   },
-  plugins: [
-    'vue',
-    '@typescript-eslint',
-     "nuxt"
-  ],
+  plugins: ['vue', '@typescript-eslint', 'nuxt'],
   rules: {
-    "max-len": "off"
+    'max-len': 'off'
   }
 }
