@@ -2,3 +2,4 @@ Flask==2.2.2
 Lifetimes==0.11.3
 numpy==1.23.5
 pylint==2.15.10
+Flask-Cors==3.0.10
