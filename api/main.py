@@ -21,7 +21,6 @@ def index():
 @app.route("/conditional-probability-alive", methods=["POST"])
 def conditionalProbabilityAlive():
     if request.method == "POST":
-        print(request.json)
         customer_field = "customer"
         date_field = "date"
         data = request.json["transactions"]
