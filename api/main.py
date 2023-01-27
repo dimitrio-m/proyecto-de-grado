@@ -7,7 +7,7 @@ from lifetimes.utils import summary_data_from_transaction_data
 from lifetimes.utils import calculate_alive_path
 
 model = BetaGeoFitter()
-model.load_model("../modelo/modelo.pkl")
+model.load_model("./modelo.pkl")
 
 app = Flask(__name__)
 CORS(app)
@@ -25,7 +25,8 @@ def conditionalProbabilityAlive():
         date_field = "date"
         data = request.json["transactions"]
         df = pd.DataFrame.from_dict(data)
-        rfm_data = summary_data_from_transaction_data(df, customer_field, date_field)
+        rfm_data = summary_data_from_transaction_data(
+            df, customer_field, date_field)
         rfm_data["p_alive"] = model.conditional_probability_alive(
             rfm_data["frequency"], rfm_data["recency"], rfm_data["T"]
         )
