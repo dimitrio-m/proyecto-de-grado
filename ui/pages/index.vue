@@ -2,6 +2,8 @@
 import { LineChart } from 'vue-chart-3'
 import moment from 'moment'
 
+const runtimeConfig = useRuntimeConfig()
+
 const transactions = ref({
   customer: [] as string[],
   date: [] as string[]
@@ -74,7 +76,7 @@ function removeTransaction (id: number) {
 }
 
 async function predict () {
-  const response = await $fetch('http://localhost:5000/conditional-probability-alive', {
+  const response = await $fetch(`${runtimeConfig.apiUrl}/conditional-probability-alive`, {
     headers: {
       'Content-Type': 'application/json'
     },
