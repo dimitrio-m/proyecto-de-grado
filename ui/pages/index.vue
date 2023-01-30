@@ -11,6 +11,10 @@ const newTransaction = ref({
   date: '',
   customer: ''
 })
+const formErrors = ref({
+  date: false,
+  client: false
+})
 const customerData = ref({} as {
    [k: string]: {
       startDate: string,
@@ -42,6 +46,23 @@ function generateDates (start: string, end: number) {
 }
 
 function addTransaction () {
+  formErrors.value.date = false
+  formErrors.value.client = false
+
+  const utc = moment(newTransaction.value.date, 'DD-MM-YYYY', true)
+
+  if (!utc.isValid()) {
+    formErrors.value.date = true
+  }
+
+  if (!newTransaction.value.customer) {
+    formErrors.value.client = true
+  }
+
+  if (formErrors.value.date || formErrors.value.client) {
+    return false
+  }
+
   transactions.value.customer.push(newTransaction.value.customer)
   transactions.value.date.push(moment(newTransaction.value.date, 'DD-MM-YYYY').format('DD-MM-YYYY'))
 
@@ -69,8 +90,8 @@ function removeTransaction (id: number) {
     transactions.value.customer.shift()
     transactions.value.date.shift()
   } else {
-    transactions.value.customer.splice(id, id)
-    transactions.value.date.splice(id, id)
+    transactions.value.customer.splice(id, 1)
+    transactions.value.date.splice(id, 1)
   }
 }
 
@@ -110,8 +131,12 @@ async function predict () {
         accusantium esse incidunt!
       </p>
 
+      <p class="text-base pb-6">
+        Para inferir la deserción de uno o varios clientes, es necesario saber las transacciones que realizaron, por favor ingrese el historial de transacciones a través del siguiente formulario:
+      </p>
+
       <form class="pb-6" @submit.prevent="addTransaction">
-        <h2 class="font-bold text-xl">
+        <h2 class="font-bold text-xl mb-2">
           Agregar Transacciones
         </h2>
         <div class="flex flex-row gap-2">
@@ -125,8 +150,8 @@ async function predict () {
               placeholder="DD-MM-YYYY"
               class="input input-bordered w-full max-w-xs"
             >
-            <label class="label">
-              <span class="label-text-alt">Alt label</span>
+            <label v-if="formErrors.date" class="label">
+              <span class="label-text-alt text-error">Por favor ingrese una fecha válida en el formato DD-MM-YYYY, por ejemplo: 21-02-2020</span>
             </label>
           </div>
           <div class="form-control basis-1/2">
@@ -139,12 +164,12 @@ async function predict () {
               placeholder="Type here"
               class="input input-bordered w-full max-w-xs"
             >
-            <label class="label">
-              <span class="label-text-alt">Alt label</span>
+            <label v-if="formErrors.client" class="label">
+              <span class="label-text-alt text-error">Por favor ingrese un identificador de cliente</span>
             </label>
           </div>
         </div>
-        <div class="flex justify-end">
+        <div class="flex justify-end mt-4">
           <button type="submit" class="btn btn-primary">
             Registrar
           </button>
@@ -186,7 +211,7 @@ async function predict () {
       <h2 class="font-bold text-xl pb-6">
         Resultados
       </h2>
-      <div v-for="(value, name) in result" :key="name">
+      <div v-for="(value, name) in result" :key="name" class="pb-4">
         <h3 class="font-bold">
           Usuario: {{ name }}
         </h3>
@@ -199,7 +224,9 @@ async function predict () {
                 data: value.path,
                 label: 'Probabilidad de Desertar',
                 spanGaps: true,
-                pointRadius: 0
+                pointRadius: 0,
+                borderColor: 'rgba(200, 0, 0, 0.8)',
+                backgroundColor: 'rgba(200, 0, 0, 0.2)',
               }
             ]
           }"
