@@ -115,23 +115,25 @@ async function predict () {
     result.value[customer].dates = generateDates(startDate, 500)
   }
 }
+
+useHead({
+  title: 'SISTEMA PARA INFERIR LA DESERCIÓN DE LOS CLIENTES EN UN E-COMMERCE'
+})
 </script>
 
 <template>
-  <div>
-    <div class="m-auto max-w-xl">
-      <h1 class="text-center font-bold text-lg pb-6">
+  <div class="px-4">
+    <div class="m-auto max-w-xl ">
+      <h1 class="text-center font-bold text-xl pb-8">
         DESARROLLO DE UN SISTEMA PARA INFERIR LA DESERCIÓN DE LOS
         CLIENTES EN UN E-COMMERCE
       </h1>
 
-      <p class="text-base pb-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati, nihil aspernatur, laboriosam
-        reiciendis velit reprehenderit sapiente provident saepe ullam magnam dolor voluptatibus illo minus quod, libero
-        accusantium esse incidunt!
+      <p class="text-base pb-8 prose lg:prose-lg">
+        Este sistema utiliza el modelo BG/NBD para inferir la deserción o churn de un cliente según sus transacciones. El modelo se entrenó utilizando <a href="https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business" /> de transacciones de ventas de una tienda de comercio electrónico con sede en el Reino Unido.
       </p>
 
-      <p class="text-base pb-6">
+      <p class="text-base pb-10 prose lg:prose-lg">
         Para inferir la deserción de uno o varios clientes, es necesario saber las transacciones que realizaron, por favor ingrese el historial de transacciones a través del siguiente formulario:
       </p>
 
@@ -139,8 +141,8 @@ async function predict () {
         <h2 class="font-bold text-xl mb-2">
           Agregar Transacciones
         </h2>
-        <div class="flex flex-row gap-2">
-          <div class="form-control basis-1/2">
+        <div class="flex flex-col lg:flex-row gap-4">
+          <div class="form-control lg:basis-1/2">
             <label class="label">
               <span class="label-text">Fecha de la Transacción</span>
             </label>
@@ -148,13 +150,13 @@ async function predict () {
               v-model="newTransaction.date"
               type="text"
               placeholder="DD-MM-YYYY"
-              class="input input-bordered w-full max-w-xs"
+              class="input input-bordered w-full max-w-sm"
             >
             <label v-if="formErrors.date" class="label">
               <span class="label-text-alt text-error">Por favor ingrese una fecha válida en el formato DD-MM-YYYY, por ejemplo: 21-02-2020</span>
             </label>
           </div>
-          <div class="form-control basis-1/2">
+          <div class="form-control lg:basis-1/2">
             <label class="label">
               <span class="label-text">Identificador de Cliente</span>
             </label>
@@ -162,14 +164,14 @@ async function predict () {
               v-model="newTransaction.customer"
               type="text"
               placeholder="Type here"
-              class="input input-bordered w-full max-w-xs"
+              class="input input-bordered w-full max-w-sm"
             >
             <label v-if="formErrors.client" class="label">
               <span class="label-text-alt text-error">Por favor ingrese un identificador de cliente</span>
             </label>
           </div>
         </div>
-        <div class="flex justify-end mt-4">
+        <div class="flex justify-end mt-6">
           <button type="submit" class="btn btn-primary">
             Registrar
           </button>

@@ -3,7 +3,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   plugins: [
-    require('daisyui')
+    require('daisyui'),
+    require('@tailwindcss/typography')
   ],
   content: [
     './pages/**/*.{vue,js}',
