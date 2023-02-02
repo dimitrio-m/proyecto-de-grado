@@ -1,10 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Interfaz del Sistema
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+La interfaz esta implementada utilizando[Nuxt 3](https://nuxt.com/docs/getting-started/introduction), consiste en una breve descripción del sistema y un formulario para ingresar las transacciones de los clientes para predecir su probabilidad de deserción.
 
-## Setup
+## Configuración
 
-Make sure to install the dependencies:
+El proyecto necesita NodeJS para su ejecución en su versión LTS o superior.
+
+Para instalar las dependencias ejecutar:
 
 ```bash
 # yarn
@@ -17,26 +19,26 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## Servidor de desarrollo
 
-Start the development server on http://localhost:3000
+Para iniciar el servidor en modo desarrollo en la dirección http://localhost:3000 ejecutar:
 
 ```bash
 npm run dev
 ```
 
-## Production
+## Producción
 
-Build the application for production:
+Para construir la aplicación ejecutar:
 
 ```bash
 npm run build
 ```
 
-Locally preview production build:
+Para ver la aplicación de forma local:
 
 ```bash
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+En la [documentación](https://nuxt.com/docs/getting-started/deployment) se pueden ver otras opciones de despliegue.
