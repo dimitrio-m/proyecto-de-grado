@@ -113,6 +113,7 @@ async function predict () {
   for (const customer in result.value) {
     const startDate = customerData.value[customer].startDate
     result.value[customer].dates = generateDates(startDate, 500)
+    result.value[customer].path = result.value[customer].path.map(v => Math.floor((1 - v) * 1000) / 10)
   }
 }
 
@@ -130,7 +131,7 @@ useHead({
       </h1>
 
       <p class="text-base pb-8 prose lg:prose-lg">
-        Este sistema utiliza el modelo BG/NBD para inferir la deserción o churn de un cliente según sus transacciones. El modelo se entrenó utilizando <a href="https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business" /> de transacciones de ventas de una tienda de comercio electrónico con sede en el Reino Unido.
+        Este sistema utiliza el modelo BG/NBD para inferir la deserción o churn de un cliente según sus transacciones. El modelo se entrenó utilizando <a class="underline text-primary" href="https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business" /> de transacciones de ventas de una tienda de comercio electrónico con sede en el Reino Unido.
       </p>
 
       <p class="text-base pb-10 prose lg:prose-lg">
@@ -224,13 +225,24 @@ useHead({
             datasets: [
               {
                 data: value.path,
-                label: 'Probabilidad de Desertar',
+                label: '% Probabilidad de haber desertado',
                 spanGaps: true,
                 pointRadius: 0,
                 borderColor: 'rgba(200, 0, 0, 0.8)',
                 backgroundColor: 'rgba(200, 0, 0, 0.2)',
               }
             ]
+          }"
+          :options="{
+            scales: {
+              y: {
+                ticks: {
+                  callback(value: number) {
+                    return value + ' %';
+                  }
+                }
+              }
+            }
           }"
         />
       </div>
