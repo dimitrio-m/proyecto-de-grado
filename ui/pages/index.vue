@@ -131,11 +131,11 @@ useHead({
       </h1>
 
       <p class="text-base pb-8 prose lg:prose-lg">
-        Este sistema utiliza el modelo BG/NBD para inferir la deserción o churn de un cliente según sus transacciones. El modelo se entrenó utilizando <a class="underline text-primary" href="https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business" /> de transacciones de ventas de una tienda de comercio electrónico con sede en el Reino Unido.
+        Este sistema utiliza el modelo BG/NBD para inferir la deserción o churn de un cliente según sus transacciones. El modelo se ajustó utilizando <a class="underline text-primary" href="https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business"> de transacciones de ventas de una tienda de comercio electrónico con sede en el Reino Unido </a>.
       </p>
 
       <p class="text-base pb-10 prose lg:prose-lg">
-        Para inferir la deserción de uno o varios clientes, es necesario saber las transacciones que realizaron, por favor ingrese el historial de transacciones a través del siguiente formulario:
+        Para inferir la deserción de uno o varios clientes, es necesario saber las transacciones que realizaron, por favor registre las transacciones mediante el siguiente formulario:
       </p>
 
       <form class="pb-6" @submit.prevent="addTransaction">
