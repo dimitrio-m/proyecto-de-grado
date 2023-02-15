@@ -24,9 +24,21 @@ def conditionalProbabilityAlive():
         customer_field = "customer"
         date_field = "date"
         data = request.json["transactions"]
+
+        if data.get("customer") is None or data.get("date") is None:
+            return "Bad Request", 400
+
+        if type(data.get("customer")) not in (tuple, list):
+            return "Bad Request", 400
+
+        if type(data.get("date")) not in (tuple, list):
+            return "Bad Request", 400
+
+        if len(data.get("date")) != len(data.get("customer")):
+            return "Bad Request", 400
+
         df = pd.DataFrame.from_dict(data)
-        rfm_data = summary_data_from_transaction_data(
-            df, customer_field, date_field)
+        rfm_data = summary_data_from_transaction_data(df, customer_field, date_field)
         rfm_data["p_alive"] = model.conditional_probability_alive(
             rfm_data["frequency"], rfm_data["recency"], rfm_data["T"]
         )
