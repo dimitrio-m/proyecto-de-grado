@@ -1,0 +1,53 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducci'on}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Antecedentes}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Justificación}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objetivos}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Metodología}{7}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Alcances}{8}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Marco Referencial}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}E-Commerce}{10}{section.2.1}%
+\contentsline {subsubsection}{Cliente}{10}{section*.2}%
+\contentsline {subsubsection}{Pedido}{11}{section*.3}%
+\contentsline {subsubsection}{Negocio Contractual}{11}{section*.4}%
+\contentsline {subsubsection}{Negocio No Contractual}{11}{section*.5}%
+\contentsline {subsubsection}{Deserción de Clientes (Churn)}{11}{section*.6}%
+\contentsline {subsubsection}{Valor de vida útil de un cliente (CLV)}{12}{section*.7}%
+\contentsline {section}{\numberline {2.2}Modelo}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Modelo Estadístico}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Modelos Buy-Till-You-Die (BTYD)}{12}{subsection.2.2.2}%
+\contentsline {subsubsection}{Modelado Probabilístico}{13}{section*.8}%
+\contentsline {subsubsection}{Tabla de pedidos}{13}{section*.9}%
+\contentsline {subsubsection}{Análisis RFM}{13}{section*.10}%
+\contentsline {subsection}{\numberline {2.2.3}Modelo Pareto / NBD}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Modelo BG / NBD}{15}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Data}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Dataset}{17}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Herramientas Tecnológicas}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Python}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Biblioteca Lifetimes}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Biblioteca Pandas}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Biblioteca MatplotLib}{18}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Jupyter Notebook}{18}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Flask}{18}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Javascript}{18}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Typescript}{19}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Vue.js}{19}{subsection.2.4.9}%
+\contentsline {subsection}{\numberline {2.4.10}Nuxt}{19}{subsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.4.11}Chart.js}{20}{subsection.2.4.11}%
+\contentsline {chapter}{\numberline {3}Análisis, Planificación y Diseño del Sistema}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Análisis y Definición del Modelo}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Arquitectura del Sistema}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Requerimientos}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Modelo}{23}{subsection.3.3.1}%
+\contentsline {subsubsection}{Requerimientos Funcionales}{23}{section*.11}%
+\contentsline {subsubsection}{Requerimientos no Funcionales}{23}{section*.12}%
+\contentsline {subsection}{\numberline {3.3.2}API}{24}{subsection.3.3.2}%
+\contentsline {subsubsection}{Requerimientos Funcionales}{24}{section*.13}%
+\contentsline {subsubsection}{Requerimientos no Funcionales}{24}{section*.14}%
+\contentsline {subsection}{\numberline {3.3.3}Aplicación Web}{25}{subsection.3.3.3}%
+\contentsline {subsubsection}{Requerimientos Funcionales}{25}{section*.15}%
+\contentsline {subsubsection}{Requerimientos no Funcionales}{25}{section*.16}%
+\contentsline {section}{\numberline {3.4}Diseño de Interfaz de Usuario}{26}{section.3.4}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{27}{section*.17}%

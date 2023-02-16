@@ -1,0 +1,67 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{lot(2012)}]{lottt2012}
+Ley organica del trabajo, las trabajadoras y los trabajadores.
+\newblock 2012.
+\newblock
+  \urlprefix\url{http://www.mppp.gob.ve/wp-content/uploads/2018/05/Gaceta-6076-Ley-Org.del-Tbjo-Trabajadores-y-Trabajador.pdf}.
+
+\bibitem[{Chavarría~Reyes(2015)}]{chavarria2015}
+Gustavo~Adolfo Chavarría~Reyes.
+\newblock Sistema de información para automatizar los procesos de gestión de
+  personal y nómina de la universidad nacional autónoma de nicaragua –
+  león.
+\newblock 2015.
+\newblock
+  \urlprefix\url{http://riul.unanleon.edu.ni:8080/jspui/bitstream/123456789/7179/1/240785.pdf}.
+
+\bibitem[{Dizzet~Utria(2017)}]{dizzet2017}
+Gabriel Dizzet~Utria.
+\newblock Implementación de un sistema erp como soporte en la toma de
+  decisiones para la ips amesco.
+\newblock 2017.
+\newblock
+  \urlprefix\url{https://repositorio.unicartagena.edu.co/bitstream/handle/11227/5930/TESIS_Implementacion%20ERP%20ODOO%20IPS%20AMESCO.pdf}.
+
+\bibitem[{Díaz(2019)}]{diaz2019}
+Alejandro Díaz.
+\newblock Desarrollo de tecnologías de información gerencial para
+  instituciones públicas y privadas en venezuela.
+\newblock 2019.
+\newblock
+  \urlprefix\url{http://miunespace.une.edu.ve/jspui/bitstream/123456789/3319/1/TG5998%20Completa%20Calif.%2020.pdf}.
+
+\bibitem[{Gómez(2020)}]{gomez2020}
+María Gómez.
+\newblock Estudio de las características de los módulos relacionados con
+  recursos humanos de odoo.
+\newblock 2020.
+\newblock
+  \urlprefix\url{https://tauja.ujaen.es/bitstream/10953.1/12460/1/TFG.pdf}.
+
+\bibitem[{Odoo(2022{\natexlab{a}})}]{odoo2022}
+Odoo.
+\newblock Acerca de odoo.
+\newblock 2022{\natexlab{a}}.
+\newblock \urlprefix\url{https://www.odoo.com/es_ES}.
+
+\bibitem[{Odoo(2022{\natexlab{b}})}]{odoodoc}
+Odoo.
+\newblock Documentación de odoo.
+\newblock 2022{\natexlab{b}}.
+\newblock \urlprefix\url{https://www.odoo.com/documentation/15.0/es/}.
+
+\bibitem[{Stallman(2004)}]{stallman2004}
+Richard~M. Stallman.
+\newblock \emph{Software libre para una sociedad libre}.
+\newblock Traficantes de sueños, Madrid, 1
+  ed\raise1ex\hbox{\underbar{\scriptsize \'on}}., 2004.
+
+\end{thebibliography}
