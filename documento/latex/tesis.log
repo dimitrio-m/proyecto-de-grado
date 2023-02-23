@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  16 FEB 2023 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  16 FEB 2023 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -142,6 +142,99 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box51
 )
+(/usr/share/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks21
+\SOUL@lasttoken=\toks22
+\SOUL@cmds=\toks23
+\SOUL@buffer=\toks24
+\SOUL@token=\toks25
+\SOUL@spaceskip=\skip60
+\SOUL@ttwidth=\dimen150
+\SOUL@uldp=\dimen151
+\SOUL@ulht=\dimen152
+)
+(/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks26
+)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count270
+\LTcapwidth=\dimen153
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@gbox=\box56
+\LT@cols=\count271
+\LT@rows=\count272
+\c@LT@tables=\count273
+\c@LT@chunks=\count274
+\LT@p@ftn=\toks27
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count275
+\@cmidlb=\count276
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count277
+\@lastruleclass=\count278
+\@thisrulewidth=\dimen166
+)
+(/usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box57
+\extrarowheight=\dimen168
+\NC@list=\toks28
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box58
+))
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count279
+\lst@gtempboxa=\box59
+\lst@token=\toks29
+\lst@length=\count280
+\lst@currlwidth=\dimen169
+\lst@column=\count281
+\lst@pos=\count282
+\lst@lostspace=\dimen170
+\lst@width=\dimen171
+\lst@newlines=\count283
+\lst@lineno=\count284
+\lst@maxwidth=\dimen172
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count285
+\lst@skipnumbers=\count286
+\lst@framebox=\box60
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
@@ -180,9 +273,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen150
-\Hy@linkcounter=\count270
-\Hy@pagecounter=\count271
+\@linkdim=\dimen173
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
@@ -195,7 +288,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count272
+\Hy@SavedSpaceFactor=\count289
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
@@ -212,14 +305,14 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count273
+\c@Hy@tempcnt=\count290
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen151
+\XeTeXLinkMargin=\dimen174
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -228,9 +321,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count274
-\Field@Width=\dimen152
-\Fld@charsize=\dimen153
+\Fld@menulength=\count291
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -245,9 +338,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count275
-\c@Item=\count276
-\c@Hfootnote=\count277
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -259,8 +352,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count278
-\c@bookmark@seq@number=\count279
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -271,44 +364,45 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip60
+\Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box61
 ) (./tesis.aux
 (./titlepage.aux)
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
- (./capitulo1.aux) (./capitulo2.aux) (./capitulo3.aux))
+ (./capitulo1.aux) (./capitulo2.aux) (./capitulo3.aux)
+(./capitulo4.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -346,17 +440,17 @@ LaTeX Info: Redefining \% on input line 74.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen154
-\scratchbox=\box53
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen155
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count298
+\scratchdimen=\dimen177
+\scratchbox=\box62
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen178
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -374,7 +468,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 74.
+\c@lstlisting=\count304
+Package hyperref Info: Link coloring ON on input line 108.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -385,11 +480,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count287
+\c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (./tesis.out) (./tesis.out)
 \@outlinefile=\write3
@@ -398,7 +493,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 \openout2 = `titlepage.aux'.
 
  (./titlepage.tex
-<images/logoULA.jpg, id=152, 192.72pt x 263.98625pt>
+<images/logoULA.jpg, id=200, 192.72pt x 263.98625pt>
 File: images/logoULA.jpg Graphic file (type jpg)
 <use images/logoULA.jpg>
 Package pdftex.def Info: images/logoULA.jpg  used on input line 43.
@@ -424,8 +519,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `tesis.toc'.
 
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
 
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -479,8 +574,8 @@ LaTeX Info: Redefining \% on input line 73.
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
  [8])
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
  [9]
 \openout2 = `capitulo2.aux'.
 
@@ -518,11 +613,11 @@ LaTeX Info: Redefining \% on input line 171.
  [18])
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
  [19]
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
 [20]
 \openout2 = `capitulo3.aux'.
@@ -535,21 +630,252 @@ Cap\'{\i }tulo 3.
 
 
 ]
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
+<images/arquitectura-proyecto-de-grado.png, id=368, 403.5075pt x 684.5575pt>
+File: images/arquitectura-proyecto-de-grado.png Graphic file (type png)
+<use images/arquitectura-proyecto-de-grado.png>
+Package pdftex.def Info: images/arquitectura-proyecto-de-grado.png  used on inp
+ut line 30.
+(pdftex.def)             Requested size: 214.67604pt x 364.20299pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
  [22]
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
- [23]
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+
+[23 <./images/arquitectura-proyecto-de-grado.png>]
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
  [24]
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
- [25])
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
- [26] (./tesis.bbl
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [25]
+<images/ui.png, id=393, 342.27875pt x 573.14125pt>
+File: images/ui.png Graphic file (type png)
+<use images/ui.png>
+Package pdftex.def Info: images/ui.png  used on input line 116.
+(pdftex.def)             Requested size: 214.67604pt x 359.48048pt.
+LaTeX Info: Redefining \. on input line 120.
+LaTeX Info: Redefining \% on input line 120.
+ [26])
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
+ [27 <./images/ui.png>]
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
+ [28]
+\openout2 = `capitulo4.aux'.
+
+ (./capitulo4.tex
+Cap\'{\i }tulo 4.
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 23.
+ [29
+
+
+
+
+]
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+ [30]
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+ [31]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 80.
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+ [32]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+
+[33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
+ [34]
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
+ [35]
+Overfull \hbox (16.65866pt too wide) in paragraph at lines 224--225
+[]\OT1/cmr/m/n/12 Cuando el usua-rio pre-sio-na el bot^^Son -egis-trar"se eje-c
+u-ta la fun-ci^^Son .[]ddTransaction",
+ []
+
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
+ [37]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+286.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Info: Redefining \. on input line 300.
+LaTeX Info: Redefining \% on input line 300.
+ [38]
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+LaTeX Info: Redefining \. on input line 338.
+LaTeX Info: Redefining \% on input line 338.
+ [39]
+<images/2.png, id=689, 579.16376pt x 749.80125pt>
+File: images/2.png Graphic file (type png)
+<use images/2.png>
+Package pdftex.def Info: images/2.png  used on input line 370.
+(pdftex.def)             Requested size: 214.67604pt x 277.92552pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 374.
+LaTeX Info: Redefining \% on input line 374.
+ [40]
+<images/matriz-f-r.png, id=722, 382.3083pt x 344.0052pt>
+File: images/matriz-f-r.png Graphic file (type png)
+<use images/matriz-f-r.png>
+Package pdftex.def Info: images/matriz-f-r.png  used on input line 386.
+(pdftex.def)             Requested size: 214.67604pt x 193.17175pt.
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 390.
+LaTeX Info: Redefining \% on input line 390.
+ [41 <./images/2.png>]
+<images/probabilidad-vida.png, id=731, 375.804pt x 344.0052pt>
+File: images/probabilidad-vida.png Graphic file (type png)
+<use images/probabilidad-vida.png>
+Package pdftex.def Info: images/probabilidad-vida.png  used on input line 400.
+(pdftex.def)             Requested size: 214.67604pt x 196.51016pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 404.
+LaTeX Info: Redefining \% on input line 404.
+ [42 <./images/matriz-f-r.png>]
+<images/ajuste-modelo.png, id=739, 419.166pt x 334.6101pt>
+File: images/ajuste-modelo.png Graphic file (type png)
+<use images/ajuste-modelo.png>
+Package pdftex.def Info: images/ajuste-modelo.png  used on input line 412.
+(pdftex.def)             Requested size: 214.67604pt x 171.3739pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 416.
+LaTeX Info: Redefining \% on input line 416.
+ [43 <./images/probabilidad-vida.png>]
+<images/comparacion.png, id=748, 400.3758pt x 328.8285pt>
+File: images/comparacion.png Graphic file (type png)
+<use images/comparacion.png>
+Package pdftex.def Info: images/comparacion.png  used on input line 436.
+(pdftex.def)             Requested size: 214.67604pt x 176.31538pt.
+LaTeX Info: Redefining \. on input line 439.
+LaTeX Info: Redefining \% on input line 439.
+ [44 <./images/ajuste-modelo.png>]
+<images/3.png, id=760, 1045.9075pt x 315.1775pt>
+File: images/3.png Graphic file (type png)
+<use images/3.png>
+Package pdftex.def Info: images/3.png  used on input line 448.
+(pdftex.def)             Requested size: 343.48299pt x 103.50873pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 452.
+LaTeX Info: Redefining \% on input line 452.
+ [45 <./images/comparacion.png>]
+<images/4.png, id=767, 938.50626pt x 244.915pt>
+File: images/4.png Graphic file (type png)
+<use images/4.png>
+Package pdftex.def Info: images/4.png  used on input line 456.
+(pdftex.def)             Requested size: 343.48299pt x 89.63426pt.
+<images/6.png, id=768, 689.57625pt x 817.0525pt>
+File: images/6.png Graphic file (type png)
+<use images/6.png>
+Package pdftex.def Info: images/6.png  used on input line 468.
+(pdftex.def)             Requested size: 214.67604pt x 254.35583pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 472.
+LaTeX Info: Redefining \% on input line 472.
+ [46 <./images/3.png> <./images/4.png>]
+<images/e1.png, id=777, 419.8887pt x 314.3745pt>
+File: images/e1.png Graphic file (type png)
+<use images/e1.png>
+Package pdftex.def Info: images/e1.png  used on input line 484.
+(pdftex.def)             Requested size: 214.67604pt x 160.73181pt.
+LaTeX Info: Redefining \. on input line 488.
+LaTeX Info: Redefining \% on input line 488.
+ [47 <./images/6.png>]
+<images/e3.png, id=785, 409.7709pt x 314.3745pt>
+File: images/e3.png Graphic file (type png)
+<use images/e3.png>
+Package pdftex.def Info: images/e3.png  used on input line 494.
+(pdftex.def)             Requested size: 214.67604pt x 164.6989pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 502.
+LaTeX Info: Redefining \% on input line 502.
+ [48 <./images/e1.png> <./images/e3.png>]
+<images/e4.png, id=795, 427.1157pt x 314.3745pt>
+File: images/e4.png Graphic file (type png)
+<use images/e4.png>
+Package pdftex.def Info: images/e4.png  used on input line 504.
+(pdftex.def)             Requested size: 214.67604pt x 158.01193pt.
+<images/7.png, id=796, 602.25pt x 817.0525pt>
+File: images/7.png Graphic file (type png)
+<use images/7.png>
+Package pdftex.def Info: images/7.png  used on input line 516.
+(pdftex.def)             Requested size: 214.67604pt x 291.24629pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [49 <./images/e4.png>]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [50 <./images/7.png>]
+\openout2 = `capitulo5.aux'.
+
+ (./capitulo5.tex
+Cap\'{\i }tulo 5.
+[51
+
+
+
+
+])
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+ [52] (./tesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 11--15
 \OT1/cmtt/m/n/12 / / www . mppp . gob . ve / wp-[]content / uploads / 2018 / 05
  / Gaceta-[]6076-[]Ley-[]Org .
@@ -597,7 +923,7 @@ Underfull \hbox (badness 1107) in paragraph at lines 56--60
 tt/m/n/12 https : / / www . odoo . com /
  []
 
-[27
+[53
 
 
 
@@ -606,34 +932,44 @@ tt/m/n/12 https : / / www . odoo . com /
 
 Package natbib Warning: There were undefined citations.
 
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
-[28] (./tesis.aux (./titlepage.aux)
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+[54] (./tesis.aux (./titlepage.aux)
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
  (./capitulo1.aux) (./capitulo2.aux)
-(./capitulo3.aux))
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 90D22277EDD6837F2AF57164E4E78D72;4983.
+(./capitulo3.aux) (./capitulo4.aux) (./capitulo5.aux))
+
+Package rerunfilecheck Warning: File `tesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis.out':
+(rerunfilecheck)             Before: 42D80E5BB1B9B26BF6014A07DFAAB84A;6527
+(rerunfilecheck)             After:  919B76CF63794DDF24B913668DC8057D;6727.
  ) 
 Here is how much of TeX's memory you used:
- 11547 strings out of 478238
- 180087 string characters out of 5850456
- 503571 words of memory out of 5000000
- 29521 multiletter control sequences out of 15000+600000
- 474936 words of font info for 47 fonts, out of 8000000 for 9000
+ 14875 strings out of 478238
+ 227161 string characters out of 5850456
+ 1015688 words of memory out of 5000000
+ 32452 multiletter control sequences out of 15000+600000
+ 476051 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,13n,76p,783b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesis.pdf (28 pages, 175505 bytes).
+ 70i,13n,76p,783b,2265s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on tesis.pdf (54 pages, 693386 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 992 PDF objects out of 1000 (max. 8388607)
+ 876 compressed objects within 9 object streams
+ 421 named destinations out of 1000 (max. 500000)
+ 468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
