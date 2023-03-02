@@ -6,7 +6,7 @@
 
 \chapter{Análisis, Planificación y Diseño del Sistema}
 
-En este capitulo se explican los procesos que fueron necesarios para la investigación y creación del sistema para inferir la deserción de clientes. Esta es la fase inicial donde se analizan los objetivos del proyecto y se definen las lineas de diseño base para la creación del sistema.
+En este capítulo se explican los procesos que fueron necesarios para la investigación y creación del sistema para inferir la deserción de clientes. Esta es la fase inicial donde se analizan los objetivos del proyecto y se definen las lineas de diseño base para la creación del sistema.
 
 \section{Análisis y Definición del Modelo}
 
@@ -16,11 +16,11 @@ Como se describió anteriormente, el ámbito no contractual y continuo en el que
 
 	Dicho esto, se buscó una solución mediante uno o varios modelos estadísticos. Este tipo de enfoque es considerado efectivo para este ámbito, ya que se pueden generar ecuaciones predeterminadas que se adapten a los datos obtenidos, inferir la relación que existe entre las variables y así generar valores esperados.
 
-	Luego de decidir el enfoque de la solución, se comenzó una investigación exhaustiva para determinar que variables modelar y que relaciones evaluar. Este problema ya se ha atacado antes, en el articulo Counting Your Customers: Who Are They and What Will They Do Next? (David C. Schmittlein, Donald G. Morrison and Richard Colombo 1987) se plantea una solución que se basa en predecir el numero de transacciones de un cliente en el futuro, si bien los resultados de este modelo son efectivos, existe un problema de implementación desde el punto de vista computacional debido a la complejidad de las funciones matemáticas utilizadas en el modelo.
+	Luego de decidir el enfoque de la solución, se comenzó una investigación exhaustiva para determinar que variables modelar y que relaciones evaluar. Este problema ya se ha atacado antes, en el articulo Counting Your Customers: Who Are They and What Will They Do Next? \cite{schmittlein1987} se plantea una solución que se basa en predecir el numero de transacciones de un cliente en el futuro, si bien los resultados de este modelo son efectivos, existe un problema de implementación desde el punto de vista computacional debido a la complejidad de las funciones matemáticas utilizadas en el modelo.
 
-	En el artículo “Counting Your Customers” the Easy Way: An Alternative to the Pareto/NBD Model (Peter S. Fader, Bruce G. S. Hardie, Ka Lok Lee 2004), los autores realizaron una mejora considerable al modelo Pareto / NBD, simplificando así su implementación y manteniendo los resultados.
+	En el artículo “Counting Your Customers” the Easy Way: An Alternative to the Pareto/NBD Model \cite{fader2005}, los autores realizaron una mejora considerable al modelo Pareto / NBD, simplificando así su implementación y manteniendo los resultados.
 
-	Posteriormente en una nota A Step-by-Step Derivation of the BG/NBD Model (Peter S. Fader, Bruce G. S. Hardie, Ka Lok Lee 2019) los autores describieron los pasos para derivar los resultados obtenidos anteriormente, lo que permitió la implementación del modelo en código Python por parte de Cameron Davidson-Pilon, creando así la biblioteca Lifetimes que será el pilar base del sistema para predecir la deserción de clientes en un e-commerce.
+	Posteriormente, en una nota A Step-by-Step Derivation of the BG/NBD Model (Peter S. Fader, Bruce G. S. Hardie, Ka Lok Lee 2019) los autores describieron los pasos para derivar los resultados obtenidos anteriormente, lo que permitió la implementación del modelo en código Python por parte de Cameron Davidson-Pilon, creando así la biblioteca Lifetimes que será el pilar base del sistema para predecir la deserción de clientes en un e-commerce.
 
 \section{Arquitectura del Sistema}
 
@@ -36,7 +36,7 @@ La solución al problema planteado consta de un sistema donde se integran tres m
 
 	Finalmente, la interfaz tiene como finalidad permitir introducir al usuario al sistema, recibir su entrada como una lista de transacciones que están representadas por una fecha y un identificador de cliente, enviar esa información a la API para ser procesada, recibir el resultado y mostrarle un gráfico de probabilidad por cada cliente donde se exprese la probabilidad de que este haya desertado en un punto en el tiempo futuro.
 	
-	La comunicación entre el modulo del modelo y la API se realizaría mediante un archivo PKL que contiene los parámetros del modelo creado, el cual será importado por la API al momento de su ejecución y utilizado para generar predicciones. La API y la aplicación web hablarían mediante peticiones HTTP e intercambiarían la información en formato JSON.
+	La comunicación entre el módulo del modelo y la API se realizaría mediante un archivo PKL que contiene los parámetros del modelo creado, el cual será importado por la API al momento de su ejecución y utilizado para generar predicciones. La API y la aplicación web hablarían mediante peticiones HTTP e intercambiarían la información en formato JSON.
 
 \section{Requerimientos}
 
@@ -120,6 +120,6 @@ Lo más importante en el sistema es permitir a un usuario ingresar una lista de 
 
 La página web inicialmente muestra información sobre el proyecto como título, descripción e instrucciones sobre como utilizar el sistema, luego se muestra un formulario de entrada donde el usuario puede registrar una transacción. La transacción consiste de una fecha en formato DD-MM-AAAA y un identificador de cliente. 
 
-La experiencia de usuario en el sistema es simple, cuando se registra una transacción valida, esta se agrega a una tabla que el usuario puede visualizar con la opción de eliminar alguna transacción ya registrada.
+La experiencia de usuario en el sistema es simple, cuando se registra una transacción válida, esta se agrega a una tabla que el usuario puede visualizar con la opción de eliminar alguna transacción ya registrada.
 
-El usuario al terminar de registrar las transacciones hace clic en el botón “predecir”, luego de esto se muestra un gráfico que representa la probabilidad de desertar de un cliente a lo largo del tiempo y comenzando desde la fecha de la primera transacción registrada del cliente. Se construye un grafico por cada identificador de cliente ingresado.
+El usuario al terminar de registrar las transacciones hace clic en el botón “predecir”, luego de esto se muestra un gráfico que representa la probabilidad de desertar de un cliente a lo largo del tiempo y comenzando desde la fecha de la primera transacción registrada del cliente. Se construye un gráfico por cada identificador de cliente ingresado.

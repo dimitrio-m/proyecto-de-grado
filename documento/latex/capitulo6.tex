@@ -1,0 +1,25 @@
+%% Los capitulos inician con \chapter{T'itulo}, estos aparecen numerados y
+%% se incluyen en el 'indice general.
+%%
+%% Recuerda que aqu'i ya puedes escribir acentos como: 'a, 'e, 'i, etc.
+%% La letra n con tilde es: 'n.
+
+\chapter{Conclusiones y Recomendaciones}
+
+En este proyecto se logró definir, diseñar e implementar un sistema con el fin de predecir la deserción de clientes de una tienda de comercio electrónico, para esto se ejecutó una metodología de desarrollo ágil que consistía en un conjunto de requerimientos, los cuales tenían como finalidad cumplir los objetivos propuestos para el proyecto y que luego fueron desglosados en un backlog de tareas, para finalmente ser implementadas mediante un tablero Kanban.
+
+	Todo comenzó con una investigación para definir el modelo correcto que posibilitara predecir la deserción de clientes dado un listado de transacciones, concluyendo así en un modelo de la familia “Buy Till You Die” llamado BG / NBD. Luego se examinó la web para obtener un dataset que permitiese ajustar los parámetros  del modelo seleccionado.
+
+	Al tener el modelo se definió una arquitectura del sistema, se implementó cada uno de los módulos y se desplegó en varios servidores para que pueda ser usado. En base a los resultados obtenidos se puede observar que, efectivamente el sistema logra predecir la deserción de clientes en un ambiente continuo y de carácter no contractual como lo es una tienda de comercio electrónico.
+
+	El sistema desarrollado en este proyecto puede servir fácilmente como base para futuros proyectos enfocados en mejorar la experiencia de los clientes en ambientes no contractuales, y así  identificar oportunidades de re-conversión, de ventas de valor agregado y optimizar los objetivos de negocios de las empresas que trabajen en el ámbito del e-commerce.
+	
+	Como recomendaciones encontradas durante el desarrollo de este sistema, hemos planteado las siguientes:
+
+\begin{itemize}
+	\item Para obtener mejores resultados, sería ideal que la data utilizada para la construcción del modelo sea el historial de transacciones real de la tienda de comercio electrónico que lo usaría, esto debido a que el comportamiento de los clientes suele variar según la categoría de productos que se venden, la región o país del mundo, el tipo de clientes y otros factores que puedan influir en las decisiones de compra.
+	\item Tomando en cuenta lo anterior, se recomienda integrar el sistema como una extensión o herramienta en plataformas de comercio electrónico populares como Magento, WooCommerce, Vendure, Shopify, etc.
+	\item Si se usaran los datos de compra y clientes de una tienda de comercio electrónico activa, sería necesario actualizar el modelo de vez en cuando, como sugerencia se puede  construir el modelo anualmente.
+	\item Para el despliegue del sistema se recomienda utilizar un servicio de despliegue de código automatizado como Heroku, Digital Ocean Apps, Railway o configurar un servidor que haga uso del sistema operativo Linux.
+
+\end{itemize}

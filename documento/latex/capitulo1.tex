@@ -1,31 +1,27 @@
-%% Los capitulos inician con \chapter{T'itulo}, estos aparecen numerados y
-%% se incluyen en el 'indice general.
-%%
-%% Recuerda que aqu'i ya puedes escribir acentos como: 'a, 'e, 'i, etc.
-%% La letra n con tilde es: 'n.
-
-\chapter{Introducci'on}
+\chapter{Introducción}
 
 El comercio electrónico o también conocido como e-commerce, consiste en la compra y venta de productos o servicios a través de internet, este comenzó a principios de 1970 y se desarrolló a mediados de la década de los 90 como una manera bastante sencilla de adquirir productos o servicios sin tener que desplazarse a una ubicación física.
 
-
 La cantidad de comercio llevada a cabo electrónicamente ha crecido de manera extraordinaria y esto ha estimulado la creación y utilización de innovaciones como el marketing en internet, cadenas de suministros complejas, sistemas automáticos de recolección de datos y sistemas para la gestión de la relación con el cliente, estos últimos han permitido la aplicación de métodos cuantitativos para el análisis y la optimización del rendimiento en los e-commerce.
-
 
 Una de las áreas más importantes de estudio es el comportamiento de los clientes, en ella se evalúa y se estudia la relación directa que existe entre el servicio que se les proporciona a los usuarios y los ingresos de la tienda de comercio electrónico, para esto se utilizan variables como el valor del ciclo de vida de un cliente y la tasa de churn y lo que se busca es obtener un incremento en las ventas mediante mejoras en los servicios, la experiencia del cliente y la calidad de los productos.
 
 \section{Antecedentes}
 
-En el mundo de los negocios y el comercio actual seguimos observando un crecimiento rápido de los sistemas digitales y las tecnologías de información, algunos de estos sistemas se basan en la gestión de relaciones con los clientes, los cuales son comunes en negocios contractuales como los servicios de telecomunicaciones o servicios de software basado en suscripción. El comercio electrónico es un negocio no contractual y en Europa tiene un crecimiento anual proyectado del 6 \% hasta el año 2025, también en el año 2020 los ingresos en e-commerce aumentaron en un 10 \% (Jílková \& Králová, 2021) \cite{Jilkova2021}, estas cifras nos demuestran lo vital que es para los negocios mantener a los clientes.
+En el mundo de los negocios y el comercio actual seguimos observando un crecimiento rápido de los sistemas digitales y las tecnologías de información, algunos de estos sistemas se basan en la gestión de relaciones con los clientes, los cuales son comunes en negocios contractuales como los servicios de telecomunicaciones o servicios de software basado en suscripción. El comercio electrónico es un negocio no contractual y desde la pandemia, el comercio electrónico se ha convertido en la opción preferida para cualquier tipo de compra \cite{paraschiv2022}, también en el año 2020 los ingresos en e-commerce aumentaron en un 10 \% en Europa \citep{jilkova2021}, estas cifras nos demuestran lo vital que es para los negocios mantener a los clientes.
 
 
-Durante los últimos tres años se han realizado muchos estudios sobre el comportamiento de los clientes en los negocios. (Falla, 2021) \cite{Falla2022} en su trabajo de grado Predicción de Abandono de Clientes en Telecomunicaciones Mediante el Aprendizaje Automático, utiliza técnicas y algoritmos de inteligencia artificial para predecir el abandono de clientes en un negocio con modelo contractual. También identificó varias técnicas de minería de datos para la identificación de clientes que están a punto de abandonar.
+Durante los últimos tres años se han realizado muchos estudios sobre el comportamiento de los clientes en los negocios. \cite{falla2021} en su trabajo de grado Predicción de Abandono de Clientes en Telecomunicaciones Mediante el Aprendizaje Automático, utiliza técnicas y algoritmos de inteligencia artificial para predecir el abandono de clientes en un negocio con modelo contractual. También identificó varias técnicas de minería de datos para la identificación de clientes que están a punto de abandonar.
 
 
-(Sinha \& Raizada,  2022) \cite{SinhaRaizada2022} en su trabajo Modelling Customer Churn Rate and Its Use for Customer Retention Planning muestran un modelo para un negocio contractual basado en máquinas de aprendizaje o machine learning para predecir la tasa de abandono, adicionalmente dan una serie de recomendaciones a los negocios para mantener una tasa de abandono baja según sus descubrimientos.
+
+\cite{sinha2022} en su trabajo Modelling Customer Churn Rate and Its Use for Customer Retention Planning muestran un modelo para un negocio contractual basado en máquinas de aprendizaje o machine learning para predecir la tasa de abandono. Adicionalmente dan una serie de recomendaciones a los negocios para mantener una tasa de abandono baja según sus descubrimientos.
 
 
-La complejidad de modelar la tasa de abandono en negocios no contractuales viene de que no se conoce el momento en el que un cliente abandonó. Una manera de aproximar esta variable es mediante el valor de la compra media de un cliente. (Abdolvand, Albadvi \& Koosha, 2021) \cite{AbdolvandAlbadviKoosha2021} mencionan en su artículo Customer Lifetime Value: Literature scoping map, and an agenda for future research que la literatura se enfoca en explicaciones teóricas para calcular el valor de la compra media de un cliente, pero no expresan las diferencias que pueden existir a la hora de aplicar el conocimiento a la práctica.
+
+La complejidad de modelar la tasa de abandono en negocios no contractuales viene de que no se conoce el momento en el que un cliente abandonó. Una manera de aproximar esta variable es mediante el valor de la compra media de un cliente. \cite{abdolvand2021} mencionan en su artículo Customer Lifetime Value: Literature scoping map, and an agenda for future research que la literatura se enfoca en explicaciones teóricas para calcular el valor de la compra media de un cliente, pero no expresan las diferencias que pueden existir a la hora de aplicar el conocimiento a la práctica.
+
+Los clientes son el pilar de las tiendas de comercio electrónico y conociendo su probabilidad de desertar en el futuro, los negocios pueden crear herramientas y procesos para evitar perderlos. \cite{fu2022} propone la construcción de un modelo de alerta temprana, para así reducir el riesgo de abandono de clientes en la industria e-commerce en China. \cite{seo2022prevention} presenta un método para incrementar la tasa de compra y prevenir el churn, para ello plantea la emisión de cupones personalizados a los clientes con mayor probabilidad de desertar.
 
 
 \section{Planteamiento del problema}
@@ -92,4 +88,4 @@ En el presente proyecto se plantea la creación de un sistema que analice los da
 
 El sistema tendrá una interfaz web donde un usuario podrá ingresar a través de un formulario el historial de transacciones de sus clientes, luego el sistema procesará la información y mostrará un gráfico por cada uno de los clientes, este gráfico mostrará la probabilidad de deserción del cliente desde su primera compra hasta 500 días en el futuro.
 
-Para la programación del sistema se hará uso del lenguaje Python para la implementación del modelo ya que es el lenguaje mas utilizado en el área de análisis de datos y la mayoría de las herramientas están codificadas en este lenguaje. Para desarrollar la interfaz web se utilizará el lenguaje Javascript, el framework VueJS y el metaframework Nuxt para el frontend. Para el backend se usará Python y la biblioteca Flask.  
+Para la implementación del modelo se hará uso del lenguaje Python, ya que es el lenguaje mas utilizado en el área de análisis de datos y la mayoría de las herramientas están codificadas en este lenguaje. Para desarrollar la interfaz web se utilizará el lenguaje Javascript, el framework VueJS y el metaframework Nuxt para el frontend. Para el backend se usará Python y la biblioteca Flask.  

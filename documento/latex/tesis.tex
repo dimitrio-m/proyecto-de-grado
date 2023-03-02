@@ -1,4 +1,4 @@
-\documentclass[oneside,numbers,spanish]{ezthesis}
+\documentclass[oneside,authoryear,spanish]{ezthesis}
 \usepackage{float}
 \usepackage{natbib}
 
@@ -79,7 +79,8 @@
 }
 
 \lstset{style=mystyle}
-
+\setlength{\headheight}{15.71667pt}
+\addtolength{\topmargin}{-0.71667pt}
 
 %% # Datos del documento #
 %% Nota que los acentos se deben escribir: \'a, \'e, \'i, etc.
@@ -137,6 +138,7 @@
 \include{capitulo3}
 \include{capitulo4}
 \include{capitulo5}
+\include{capitulo6}
 
 \appendix
 %% Cap'itulos incluidos despues del comando \appendix aparecen como ap'endices
@@ -149,7 +151,6 @@
 %% y un ejemplo.
 
 \bibliographystyle{apalike}
-
 \bibliography{biblio}
 
 \end{document}
