@@ -10,7 +10,7 @@ En éste capítulo, se pretende explicar las bases teóricas necesarias para la 
 
 \section{E-Commerce}
 
-Se puede definir al comercio electrónico o E-Commerce como transacciones comerciales realizadas digitalmente entre individuos y organizaciones. Las transacciones comerciales implican un intercambio de valor (por lo general dinero) o comercio entre las partes interesadas a cambio de productos o servicios. El hecho de que se realicen las transacciones digitalmente supone el uso de tecnologías digitales como la internet, la web, dispositivos electrónicos y software.
+Del libro Introduction to E-Commerce: Combining Business and Information Technology \cite{kutz2016}, podemos definir al comercio electrónico o E-Commerce como transacciones comerciales realizadas digitalmente entre individuos y organizaciones. Las transacciones comerciales implican un intercambio de valor (por lo general dinero) o comercio entre las partes interesadas a cambio de productos o servicios. El hecho de que se realicen las transacciones digitalmente supone el uso de tecnologías digitales como la internet, la web, dispositivos electrónicos y software.
 
 \subsubsection{Cliente}
 
@@ -30,11 +30,11 @@ Un negocio no contractual es cuando la organización no tiene mecanismo que le a
 
 \subsubsection{Deserción de Clientes (Churn)}
 
-Deserción de clientes o Churn es la pérdida de clientes debido al desgaste y es lo opuesto a la retención de clientes. Ésta se considera una métrica crucial para las empresas y se utiliza como base para calcular otras métricas de gran importancia como la vida útil del cliente, el valor de vida útil (CLV por sus siglas en inglés), el gasto de adquisición de clientes y el gasto de éxito del cliente.
+Deserción de clientes o Churn es la pérdida de clientes debido al desgaste y es lo opuesto a la retención de clientes \cite{gold2020}. Ésta se considera una métrica crucial para las empresas y se utiliza como base para calcular otras métricas de gran importancia como la vida útil del cliente, el valor de vida útil (CLV por sus siglas en inglés), el gasto de adquisición de clientes y el gasto de éxito del cliente.
 
 \subsubsection{Valor de vida útil de un cliente (CLV)}
 
-Esta medida representa el valor que tiene un cliente para un negocio a lo largo de toda la relación, es decir, es el valor total que ha aportado un cliente al negocio desde que realizó una primera compra, hasta que desertó.
+Esta medida representa el valor que tiene un cliente para un negocio a lo largo de toda la relación, es decir, es el valor total que ha aportado un cliente al negocio desde que realizó una primera compra, hasta que desertó. Conocer esta información es de vital importancia para evaluar el retorno de la inversión de los esfuerzos de adquisición y retención realizados \cite{gold2020}.
 
 \section{Modelo}
 
@@ -88,7 +88,7 @@ El nombre se refiere a la distribución de Pareto utilizada para modelar la dese
 
 A pesar de que ambos clientes tienen la misma antigüedad (14 días), la diferencia en el comportamiento de compra cambia la probabilidad de deserción. Además, a pesar de comprar en la misma tienda, exhiben patrones de compra significativamente diferentes (cada dos días frente a cada mes), por lo que cualquier predicción debe tener en cuenta sus hábitos de compra.
 
-El modelo de Pareto/NBD se basa en cinco supuestos:
+Definido por \cite{schmittlein1987}, el modelo de Pareto/NBD se basa en cinco supuestos:
 
 Desde el punto de vista del cliente individual:
 
@@ -113,7 +113,7 @@ Este modelo deriva del modelo Pareto / NBD como una alternativa simple de calcul
 
 	La mayoría de los aspectos del modelo BG / NBD reflejan directamente los del modelo Pareto / NBD. La única diferencia radica en las consideraciones que definen cómo y cuándo los clientes se vuelven inactivos. La distribución de tiempo de Pareto asume que la deserción puede ocurrir en cualquier momento, independientemente de la ocurrencia de compras reales, en este modelo se asume que el abandono ocurre inmediatamente después de una compra, permitiendo así modelar este proceso mediante la distribución geométrica beta (BG por sus siglas en inglés).
 
-El modelo de BG / NBD se basa en cinco supuestos :
+En \cite{fader2005}, se describen los cinco supuestos del modelo BG / NBD de la siguiente manera:
 
 \begin{enumerate}
 	\item Mientras está activo, el número de transacciones realizadas por un cliente representan mediante una distribución Poisson con una tasa de transacciones $\lambda$. Esto es equivalente a suponer que el tiempo entre transacciones se distribuye exponencialmente con tasa de transacción $\lambda$.
@@ -133,7 +133,7 @@ Los datos son indispensables en la investigación científica, las finanzas y en
 	
 \subsection{Dataset}
 
-Un Dataset se puede definir como un conjunto de información en particular, representado en una tabla o matriz de análisis. La tabla está conformada por columnas y cada una de ellas representa una variable de datas, las filas suponen un grupo de datos específicos.
+Un Dataset se puede definir como un conjunto de información en particular, representado en una tabla o matriz de análisis \cite{gold2020}. La tabla está conformada por columnas y cada una de ellas representa una variable de datas, las filas suponen un grupo de datos específicos.
 
 \section{Herramientas Tecnológicas}
 
