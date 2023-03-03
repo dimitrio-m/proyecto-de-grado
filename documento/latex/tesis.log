@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  2 MAR 2023 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  2 MAR 2023 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,7 +366,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 108.
+Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
@@ -383,26 +383,26 @@ LaTeX Info: Redefining \% on input line 28.
 (./capitulo4.aux) (./capitulo5.aux) (./capitulo6.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Info: Redefining \. on input line 109.
-LaTeX Info: Redefining \% on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -469,7 +469,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count304
-Package hyperref Info: Link coloring ON on input line 109.
+Package hyperref Info: Link coloring ON on input line 108.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -482,9 +482,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (./tesis.out) (./tesis.out)
 \@outlinefile=\write3
@@ -519,8 +519,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `tesis.toc'.
 
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
  [3]
 \openout2 = `capitulo1.aux'.
 
@@ -547,8 +547,8 @@ LaTeX Info: Redefining \% on input line 67.
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
  [8])
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
  [9]
 \openout2 = `capitulo2.aux'.
 
@@ -586,11 +586,11 @@ LaTeX Info: Redefining \% on input line 171.
  [18])
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 137.
-LaTeX Info: Redefining \% on input line 137.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
  [19]
-LaTeX Info: Redefining \. on input line 137.
-LaTeX Info: Redefining \% on input line 137.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
 [20]
 \openout2 = `capitulo3.aux'.
@@ -633,11 +633,11 @@ Package pdftex.def Info: images/ui.png  used on input line 116.
 LaTeX Info: Redefining \. on input line 120.
 LaTeX Info: Redefining \% on input line 120.
  [26])
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
  [27 <./images/ui.png>]
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
  [28]
 \openout2 = `capitulo4.aux'.
 
@@ -730,8 +730,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 381.
 LaTeX Info: Redefining \% on input line 381.
  [40])
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
 
 [41 <./images/2.png>]
 \openout2 = `capitulo5.aux'.
@@ -832,8 +832,8 @@ File: images/7.png Graphic file (type png)
 Package pdftex.def Info: images/7.png  used on input line 158.
 (pdftex.def)             Requested size: 257.61388pt x 349.50552pt.
 )
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
 
 [51 <./images/7.png>]
 \openout2 = `capitulo6.aux'.
@@ -846,22 +846,57 @@ Cap\'{\i }tulo 6.
 
 
 ])
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
- [53] (./tesis.bbl [54
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+ [53] (./tesis.bbl
+Underfull \hbox (badness 5359) in paragraph at lines 27--33
+[]\OT1/cmr/m/n/12 Fu, W. (2022).  Re-search on the cons-truc-tion of early war-
+ning mo-
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 27--33
+\OT1/cmr/m/n/12 del of cus-to-mer churn on e-commerce plat-form.  \OT1/cmr/m/it
+/12 Ap-plied Mathe-ma-
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 27--33
+\OT1/cmr/m/it/12 tics and Non-li-near Scien-ces\OT1/cmr/m/n/12 .  eISSN: 2444-8
+656 Art^^S^^Pcu-lo dis-po-ni-ble en:
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 51--56
+[]\OT1/cmr/m/n/12 Schmittlein, D. C., Mo-rri-son, D. G., and Co-lom-bo, R. (198
+7).  Coun-ting
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 51--56
+\OT1/cmr/m/n/12 your cus-to-mers: Who are they and what will they do next?  \OT
+1/cmr/m/it/12 Ma-na-ge-
+ []
+
+[54
 
 
 
 
-])
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
+]
+Underfull \hbox (badness 2401) in paragraph at lines 65--71
+\OT1/cmr/m/it/12 fe-ren-ce on Ad-van-ces in Ma-na-ge-ment Prac-ti-ces\OT1/cmr/m
+/n/12 .  Art^^S^^Pcu-lo dis-po-ni-ble en:
+ []
+
+)
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
  [55] (./tesis.aux (./titlepage.aux)
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
-
-(./capitulo1.aux) (./capitulo2.aux) (./capitulo3.aux) (./capitulo4.aux)
-(./capitulo5.aux) (./capitulo6.aux))
+ (./capitulo1.aux) (./capitulo2.aux)
+(./capitulo3.aux) (./capitulo4.aux) (./capitulo5.aux) (./capitulo6.aux))
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6DBB00D10C5AD09148A0EE7FB6CAB207;6852.
  ) 
@@ -883,7 +918,7 @@ t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
 
-Output written on tesis.pdf (55 pages, 684865 bytes).
+Output written on tesis.pdf (55 pages, 686016 bytes).
 PDF statistics:
  1015 PDF objects out of 1200 (max. 8388607)
  900 compressed objects within 9 object streams
