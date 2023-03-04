@@ -18,7 +18,7 @@ Un cliente en el contexto del comercio electrónico es un individuo que realiza 
 
 \subsubsection{Pedido}
 
-Un pedido u orden de compra es un registro que contiene información relevante sobre una transacción de compra realizada por un cliente en una plataforma de comercio electrónico de una organización. Este registro suele contener información relevante a los procesos de cada organización pero los datos indispensables que incluye son: la fecha en que se realizó un pedido, el valor monetario del mismo y el cliente que lo generó.
+Un pedido u orden de compra es un registro que contiene información importante sobre una transacción de compra realizada por un cliente en una plataforma de comercio electrónico de una organización. Este registro suele contener información relevante a los procesos de cada organización pero los datos indispensables que incluye son: la fecha en que se realizó un pedido, el valor monetario del mismo y el cliente que lo generó.
 
 \subsubsection{Negocio Contractual}
 
@@ -38,11 +38,11 @@ Esta medida representa el valor que tiene un cliente para un negocio a lo largo 
 
 \section{Modelo}
 
-En líneas generales, un modelo es una representación de un sistema, éste se compone por conceptos que ayudan a explicar el sistema, estudiar los efectos de diferentes componentes y hacer predicciones sobre el comportamiento del mismo. Estos conceptos suelen manifestarse en un grupo de ecuaciones matemáticas.
+En líneas generales, un modelo es una representación de un sistema, éste se compone por conceptos que ayudan a explicar el sistema, estudiar los efectos de diferentes componentes y hacer predicciones sobre el comportamiento del mismo. Estos conceptos suelen manifestarse en un grupo de ecuaciones matemáticas \cite{ando2010}.
 
 \subsection{Modelo Estadístico}
 
-Un modelo estadístico es un modelo matemático que representa una o varias suposiciones estadísticas, estas suposiciones tienen describen propiedades que nos permiten calcular la probabilidad de que ocurra un evento.
+Un modelo estadístico es un modelo matemático que representa una o varias suposiciones estadísticas, estas suposiciones describen propiedades que nos permiten calcular la probabilidad de que ocurra un evento. El desarrollo de modelos estadísticos requiere especificar las distribuciones de probabilidad y los valores de los parámetros \cite{ando2010}.
 
 \subsection{Modelos Buy-Till-You-Die (BTYD)}
 
@@ -69,7 +69,7 @@ La entrada requerida para generar las predicciones en todos los modelos BTYD es 
  
 \begin{itemize}
 	\item \textbf{Recencia (Recency):} ¿Hace cuánto tiempo compró un cliente? Este dato hace referencia a la duración en periodos de tiempo entre la primera compra del cliente y la última.	
-	\item \textbf{Frecuencia (Frecuency):} ¿Con qué frecuencia/consistencia compra un cliente? Este valor representa la cantidad de periodos de tiempo en los que el cliente realizó un pedido.
+	\item \textbf{Frecuencia (Frequency):} ¿Con qué frecuencia/consistencia compra un cliente? Este valor representa la cantidad de periodos de tiempo en los que el cliente realizó un pedido.
 	\item \textbf{Valor Monetario (Monetary):} ¿Cuánto gasta un cliente en promedio? Esto es la suma de todos los valores monetarios de las compras de un cliente dividida por el número total de compras.
 \end{itemize}
 

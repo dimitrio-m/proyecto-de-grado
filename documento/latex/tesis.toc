@@ -26,15 +26,15 @@
 \contentsline {subsection}{\numberline {2.3.1}Dataset}{17}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}Herramientas Tecnológicas}{17}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Python}{17}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Biblioteca Lifetimes}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Biblioteca Lifetimes}{18}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Biblioteca Pandas}{18}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Biblioteca MatplotLib}{18}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Jupyter Notebook}{18}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}Flask}{18}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}Javascript}{18}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.7}Javascript}{19}{subsection.2.4.7}%
 \contentsline {subsection}{\numberline {2.4.8}Typescript}{19}{subsection.2.4.8}%
 \contentsline {subsection}{\numberline {2.4.9}Vue.js}{19}{subsection.2.4.9}%
-\contentsline {subsection}{\numberline {2.4.10}Nuxt}{19}{subsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.4.10}Nuxt}{20}{subsection.2.4.10}%
 \contentsline {subsection}{\numberline {2.4.11}Chart.js}{20}{subsection.2.4.11}%
 \contentsline {chapter}{\numberline {3}Análisis, Planificación y Diseño del Sistema}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Análisis y Definición del Modelo}{21}{section.3.1}%

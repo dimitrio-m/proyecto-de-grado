@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  3 MAR 2023 19:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  4 MAR 2023 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,32 +563,35 @@ Cap\'{\i }tulo 2.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
  [11]
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
  [12]
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
  [13]
 LaTeX Info: Redefining \. on input line 98.
 LaTeX Info: Redefining \% on input line 98.
  [14]
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
  [15]
-LaTeX Info: Redefining \. on input line 137.
-LaTeX Info: Redefining \% on input line 137.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
  [16]
-LaTeX Info: Redefining \. on input line 155.
-LaTeX Info: Redefining \% on input line 155.
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
  [17]
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
- [18])
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+
+[18]
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
- [19]
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+ [19])
 LaTeX Info: Redefining \. on input line 136.
 LaTeX Info: Redefining \% on input line 136.
 
@@ -603,7 +606,7 @@ Cap\'{\i }tulo 3.
 
 
 ]
-<images/arquitectura-proyecto-de-grado.png, id=420, 403.5075pt x 684.5575pt>
+<images/arquitectura-proyecto-de-grado.png, id=426, 403.5075pt x 684.5575pt>
 File: images/arquitectura-proyecto-de-grado.png Graphic file (type png)
 <use images/arquitectura-proyecto-de-grado.png>
 Package pdftex.def Info: images/arquitectura-proyecto-de-grado.png  used on inp
@@ -625,7 +628,7 @@ LaTeX Info: Redefining \% on input line 64.
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
  [25]
-<images/ui.png, id=446, 342.27875pt x 573.14125pt>
+<images/ui.png, id=451, 342.27875pt x 573.14125pt>
 File: images/ui.png Graphic file (type png)
 <use images/ui.png>
 Package pdftex.def Info: images/ui.png  used on input line 116.
@@ -719,7 +722,7 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 LaTeX Info: Redefining \. on input line 340.
 LaTeX Info: Redefining \% on input line 340.
  [39]
-<images/2.png, id=744, 579.16376pt x 749.80125pt>
+<images/2.png, id=749, 579.16376pt x 749.80125pt>
 File: images/2.png Graphic file (type png)
 <use images/2.png>
 Package pdftex.def Info: images/2.png  used on input line 377.
@@ -738,7 +741,7 @@ LaTeX Info: Redefining \% on input line 138.
 
  (./capitulo5.tex
 Cap\'{\i }tulo 5.
-<images/matriz-f-r.png, id=788, 382.3083pt x 344.0052pt>
+<images/matriz-f-r.png, id=793, 382.3083pt x 344.0052pt>
 File: images/matriz-f-r.png Graphic file (type png)
 <use images/matriz-f-r.png>
 Package pdftex.def Info: images/matriz-f-r.png  used on input line 24.
@@ -752,7 +755,7 @@ Underfull \vbox (badness 1253) has occurred while \output is active []
 
 
 ]
-<images/probabilidad-vida.png, id=794, 375.804pt x 344.0052pt>
+<images/probabilidad-vida.png, id=799, 375.804pt x 344.0052pt>
 File: images/probabilidad-vida.png Graphic file (type png)
 <use images/probabilidad-vida.png>
 Package pdftex.def Info: images/probabilidad-vida.png  used on input line 40.
@@ -763,7 +766,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
  [43 <./images/matriz-f-r.png>]
-<images/ajuste-modelo.png, id=802, 419.166pt x 334.6101pt>
+<images/ajuste-modelo.png, id=807, 419.166pt x 334.6101pt>
 File: images/ajuste-modelo.png Graphic file (type png)
 <use images/ajuste-modelo.png>
 Package pdftex.def Info: images/ajuste-modelo.png  used on input line 52.
@@ -774,7 +777,7 @@ LaTeX Info: Redefining \% on input line 55.
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
  [45 <./images/ajuste-modelo.png>]
-<images/comparacion.png, id=820, 400.3758pt x 328.8285pt>
+<images/comparacion.png, id=825, 400.3758pt x 328.8285pt>
 File: images/comparacion.png Graphic file (type png)
 <use images/comparacion.png>
 Package pdftex.def Info: images/comparacion.png  used on input line 76.
@@ -782,17 +785,17 @@ Package pdftex.def Info: images/comparacion.png  used on input line 76.
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
  [46 <./images/comparacion.png>]
-<images/3.png, id=829, 1045.9075pt x 315.1775pt>
+<images/3.png, id=834, 1045.9075pt x 315.1775pt>
 File: images/3.png Graphic file (type png)
 <use images/3.png>
 Package pdftex.def Info: images/3.png  used on input line 88.
 (pdftex.def)             Requested size: 343.48299pt x 103.50873pt.
-<images/4.png, id=830, 938.50626pt x 244.915pt>
+<images/4.png, id=835, 938.50626pt x 244.915pt>
 File: images/4.png Graphic file (type png)
 <use images/4.png>
 Package pdftex.def Info: images/4.png  used on input line 96.
 (pdftex.def)             Requested size: 343.48299pt x 89.63426pt.
-<images/6.png, id=831, 689.57625pt x 817.0525pt>
+<images/6.png, id=836, 689.57625pt x 817.0525pt>
 File: images/6.png Graphic file (type png)
 <use images/6.png>
 Package pdftex.def Info: images/6.png  used on input line 108.
@@ -805,12 +808,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
  [48 <./images/6.png>]
-<images/e1.png, id=846, 419.8887pt x 314.3745pt>
+<images/e1.png, id=851, 419.8887pt x 314.3745pt>
 File: images/e1.png Graphic file (type png)
 <use images/e1.png>
 Package pdftex.def Info: images/e1.png  used on input line 126.
 (pdftex.def)             Requested size: 257.61388pt x 192.88104pt.
-<images/e3.png, id=847, 409.7709pt x 314.3745pt>
+<images/e3.png, id=852, 409.7709pt x 314.3745pt>
 File: images/e3.png Graphic file (type png)
 <use images/e3.png>
 Package pdftex.def Info: images/e3.png  used on input line 136.
@@ -818,7 +821,7 @@ Package pdftex.def Info: images/e3.png  used on input line 136.
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
  [49 <./images/e1.png>]
-<images/e4.png, id=857, 427.1157pt x 314.3745pt>
+<images/e4.png, id=862, 427.1157pt x 314.3745pt>
 File: images/e4.png Graphic file (type png)
 <use images/e4.png>
 Package pdftex.def Info: images/e4.png  used on input line 146.
@@ -826,7 +829,7 @@ Package pdftex.def Info: images/e4.png  used on input line 146.
 LaTeX Info: Redefining \. on input line 154.
 LaTeX Info: Redefining \% on input line 154.
  [50 <./images/e3.png> <./images/e4.png>]
-<images/7.png, id=867, 602.25pt x 817.0525pt>
+<images/7.png, id=873, 602.25pt x 817.0525pt>
 File: images/7.png Graphic file (type png)
 <use images/7.png>
 Package pdftex.def Info: images/7.png  used on input line 158.
@@ -901,10 +904,10 @@ Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6DBB00D10C5AD09148A0EE7FB6CAB207;6852.
  ) 
 Here is how much of TeX's memory you used:
- 14930 strings out of 478238
- 228414 string characters out of 5850456
- 1034658 words of memory out of 5000000
- 32486 multiletter control sequences out of 15000+600000
+ 14934 strings out of 478238
+ 228475 string characters out of 5850456
+ 1034686 words of memory out of 5000000
+ 32489 multiletter control sequences out of 15000+600000
  476051 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,76p,812b,2228s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -918,10 +921,10 @@ t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
 
-Output written on tesis.pdf (55 pages, 688423 bytes).
+Output written on tesis.pdf (55 pages, 688690 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 917 compressed objects within 10 object streams
- 433 named destinations out of 1000 (max. 500000)
+ 1038 PDF objects out of 1200 (max. 8388607)
+ 922 compressed objects within 10 object streams
+ 434 named destinations out of 1000 (max. 500000)
  484 words of extra memory for PDF output out of 10000 (max. 10000000)
 

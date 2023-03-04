@@ -14,47 +14,45 @@ Illegal, another \bibstyle command---line 35 of file tesis.aux
  :          {apalike}
 I'm skipping whatever remains of this command
 Database file #1: biblio.bib
-Warning--empty journal in falla2021
-Warning--empty journal in seo2022prevention
-You've used 11 entries,
+You've used 12 entries,
             1935 wiz_defined-function locations,
-            550 strings with 6403 characters,
-and the built_in function-call counts, 3911 in all, are:
-= -- 382
-> -- 159
-< -- 6
-+ -- 54
-- -- 52
-* -- 313
-:= -- 720
-add.period$ -- 42
-call.type$ -- 11
-change.case$ -- 81
-chr.to.int$ -- 11
-cite$ -- 13
-duplicate$ -- 149
-empty$ -- 261
-format.name$ -- 67
-if$ -- 745
+            556 strings with 6510 characters,
+and the built_in function-call counts, 4147 in all, are:
+= -- 411
+> -- 166
+< -- 7
++ -- 56
+- -- 54
+* -- 326
+:= -- 768
+add.period$ -- 46
+call.type$ -- 12
+change.case$ -- 87
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 157
+empty$ -- 274
+format.name$ -- 70
+if$ -- 791
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 13
-newline$ -- 67
-num.names$ -- 33
+newline$ -- 73
+num.names$ -- 36
 pop$ -- 64
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 87
 quote$ -- 0
-skip$ -- 115
+skip$ -- 121
 stack$ -- 0
-substring$ -- 211
-swap$ -- 9
+substring$ -- 223
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 62
-warning$ -- 2
-while$ -- 28
+type$ -- 66
+warning$ -- 0
+while$ -- 30
 width$ -- 0
-write$ -- 158
+write$ -- 173
 (There was 1 error message)
