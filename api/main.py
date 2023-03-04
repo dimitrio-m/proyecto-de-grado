@@ -21,29 +21,31 @@ def index():
 @app.route("/conditional-probability-alive", methods=["POST"])
 def conditionalProbabilityAlive():
     if request.method == "POST":
+        # Lectura de datos
         customer_field = "customer"
         date_field = "date"
         data = request.json["transactions"]
-
+        # Validaciones
         if data.get("customer") is None or data.get("date") is None:
             return "Bad Request", 400
-
         if type(data.get("customer")) not in (tuple, list):
             return "Bad Request", 400
-
         if type(data.get("date")) not in (tuple, list):
             return "Bad Request", 400
-
         if len(data.get("date")) != len(data.get("customer")):
             return "Bad Request", 400
-
+        # Crear DataFrame
         df = pd.DataFrame.from_dict(data)
-        rfm_data = summary_data_from_transaction_data(df, customer_field, date_field)
+        # Formato RFM
+        rfm_data = summary_data_from_transaction_data(
+            df, customer_field, date_field)
+        # Calcular probabilidad siguiente periodo
         rfm_data["p_alive"] = model.conditional_probability_alive(
             rfm_data["frequency"], rfm_data["recency"], rfm_data["T"]
         )
+        # Resultado
         result = rfm_data.to_dict("index")
-
+        # Predecir probabilidad futura por usuario
         for i, _row in rfm_data.iterrows():
             path = (
                 calculate_alive_path(

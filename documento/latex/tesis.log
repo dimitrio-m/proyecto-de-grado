@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  4 MAR 2023 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.16)  4 MAR 2023 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,7 +929,7 @@ t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
 
-Output written on tesis.pdf (56 pages, 690065 bytes).
+Output written on tesis.pdf (56 pages, 690068 bytes).
 PDF statistics:
  1059 PDF objects out of 1200 (max. 8388607)
  942 compressed objects within 10 object streams
