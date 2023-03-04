@@ -73,8 +73,8 @@
 \contentsline {section}{\numberline {5.2}Resultados}{48}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Modelo}{49}{subsection.5.2.1}%
 \contentsline {subsubsection}{Ejemplo 1}{49}{section*.27}%
-\contentsline {subsubsection}{Ejemplo 3}{49}{section*.28}%
-\contentsline {subsubsection}{Ejemplo 4}{50}{section*.29}%
+\contentsline {subsubsection}{Ejemplo 2}{50}{section*.28}%
+\contentsline {subsubsection}{Ejemplo 3}{50}{section*.29}%
 \contentsline {subsection}{\numberline {5.2.2}API y Aplicación Web}{51}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Recomendaciones}{52}{chapter.6}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{54}{section*.30}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Recomendaciones}{53}{chapter.6}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{55}{section*.30}%

@@ -18,7 +18,7 @@ Para validar el modelo se realizaron varias pruebas y análisis de la informaci�
 
 \subsubsection{Matriz de Frecuencia, Recencia y Compras Esperadas}
 
-Inicialmente lo que se busca con el modelo es predecir el número esperado de transacciones que un cliente realizará el próximo periodo de tiempo, es por esto que se puede validar la calidad del funcionamiento del modelo graficando la relación que existe entre la frecuencia, la recencia y el número esperado de compras.
+Inicialmente lo que se busca con el modelo es predecir el número esperado de transacciones que un cliente realizará el próximo periodo de tiempo, es por esto que se puede validar la calidad del funcionamiento del modelo graficando la relación que existe entre la frecuencia, la recencia y el número esperado de compras (ver Figura \ref{fig:frc}).
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.85\textwidth]{images/matriz-f-r.png}
@@ -34,7 +34,7 @@ Inicialmente lo que se busca con el modelo es predecir el número esperado de tr
 	
 \subsubsection{Matriz de Frecuencia, Recencia y Probabilidad de vida}
 
-Otra información interesante a evaluar es la relación entre la frecuencia, recencia y la probabilidad de vida de un cliente.
+Otra información interesante a evaluar es la relación entre la frecuencia, recencia y la probabilidad de vida de un cliente (ver Figura \ref{fig:frp}.
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.80\textwidth]{images/probabilidad-vida.png}
@@ -46,7 +46,7 @@ De forma similar a la matriz anterior, si los clientes tienen una frecuencia alt
 
 \subsubsection{Evaluación del ajuste del modelo}
 
-En el siguiente gráfico se evalúan los parámetros de ajuste del modelo, para ello se comparan los datos que se utilizaron para ajustar el modelo con datos artificiales simulados con los parámetros del modelo ajustado.
+En el siguiente gráfico se evalúan los parámetros de ajuste del modelo, para ello se comparan los datos que se utilizaron para ajustar el modelo con datos artificiales simulados con los parámetros del modelo ajustado (ver Figura \ref{fig:ajuste}).
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.80\textwidth]{images/ajuste-modelo.png}
@@ -70,7 +70,7 @@ Luego de dividir la data, se procede a ajustar el modelo con los datos del perio
 model.fit(summary_cal_holdout['frequency_cal'], summary_cal_holdout['recency_cal'], summary_cal_holdout['T_cal'])
 \end{lstlisting}
 
-Finalmente, se compara las compras del periodo de reserva, con las compras esperadas por el modelo en ese mismo periodo:
+Finalmente, se compara las compras del periodo de reserva, con las compras esperadas por el modelo en ese mismo periodo (Ver Figura \ref{fig:comp}):
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.80\textwidth]{images/comparacion.png}
@@ -90,7 +90,7 @@ Para verificar que la API cumple los requerimientos, se realizaron pruebas media
 	\label{fig:api1}
 \end{figure}
 
-En el primer caso se envió una petición válida con información sobre varias transacciones y el recurso responde correctamente a la solicitud.
+En el primer caso se envió una petición válida con información sobre varias transacciones y el recurso responde correctamente a la solicitud (Ver Figura \ref{fig:api1}).
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.80\textwidth]{images/4.png}
@@ -98,11 +98,11 @@ En el primer caso se envió una petición válida con información sobre varias 
 	\label{fig:api2}
 \end{figure}
 
-En el segundo caso se envió una petición inválida a la API y esta responde con el mensaje adecuado.
+En el segundo caso se envió una petición inválida a la API y esta responde con el mensaje adecuado (Ver Figura \ref{fig:api2}).
 
 \subsection{Aplicación Web}
 
-Ya que el listado de transacciones debe tener un formato especifico, se validó la entrada del usuario para garantizar esta estructura, para ello se muestra un texto de ayuda y mensajes con información sobre los diferentes errores de entrada posibles.
+Ya que el listado de transacciones debe tener un formato especifico, se validó la entrada del usuario para garantizar esta estructura, para ello se muestra un texto de ayuda y mensajes con información sobre los diferentes errores de entrada posibles (Ver Figura \ref{fig:ui1}).
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.80\textwidth]{images/6.png}
@@ -120,42 +120,44 @@ A continuación se van a presentar ejemplos de clientes dentro del dataset, sus 
 
 \subsubsection{Ejemplo 1}
 
-En este ejemplo se aprecia el comportamiento de un cliente que realizó dos compras consecutivas, al inicio la probabilidad de ser considerado un cliente baja con una mayor rapidez, luego de que el cliente realiza otra compra se puede ver que la probabilidad ahora disminuye más lentamente. Finalmente luego de la cuarta compra se puede observar que este cliente tiene una relación saludable con la tienda y tiene un patrón de compra definido.
+En este ejemplo (Ver Figura \ref{fig:e1}) se aprecia el comportamiento de un cliente que realizó dos compras consecutivas, al inicio la probabilidad de ser considerado un cliente baja con una mayor rapidez, luego de que el cliente realiza otra compra se puede ver que la probabilidad ahora disminuye más lentamente. Finalmente luego de la cuarta compra se puede observar que este cliente tiene una relación saludable con la tienda y tiene un patrón de compra definido.
 
 \begin{figure}[H]
-	\centering \includegraphics[width=0.60\textwidth]{images/e1.png}
+	\centering \includegraphics[width=0.90\textwidth]{images/e1.png}
 	\caption{Probabilidad de vida Ejemplo 1}
 	\label{fig:e1}
 \end{figure}
 
-\subsubsection{Ejemplo 3}
+\subsubsection{Ejemplo 2}
 
-Este caso es de interés ya que se puede apreciar a un cliente que compra muy seguido durante todo el año, luego de pasar unos días sin comprar, el modelo penaliza fuertemente su probabilidad de seguir siendo cliente ya que no mantiene su comportamiento anterior.
+Este caso (Ver Figura \ref{fig:e3}) es de interés ya que se puede apreciar a un cliente que compra muy seguido durante todo el año, luego de pasar unos días sin comprar, el modelo penaliza fuertemente su probabilidad de seguir siendo cliente ya que no mantiene su comportamiento anterior.
 
 \begin{figure}[H]
-	\centering \includegraphics[width=0.60\textwidth]{images/e3.png}
-	\caption{Probabilidad de vida Ejemplo 3}
+	\centering \includegraphics[width=0.90\textwidth]{images/e3.png}
+	\caption{Probabilidad de vida Ejemplo 2}
 	\label{fig:e3}
 \end{figure}
 
-\subsubsection{Ejemplo 4}
+\subsubsection{Ejemplo 3}
 
-En este ejemplo el cliente realizó dos compras y durante el año la probabilidad de vida del cliente fue disminuyendo pero no fue descartado, como vemos luego el cliente regresó y se completó su patrón de compra.
+En este ejemplo (Ver Figura \ref{fig:e3}) el cliente realizó dos compras y durante el año la probabilidad de vida del cliente fue disminuyendo pero no fue descartado, como vemos luego el cliente regresó y se completó su patrón de compra.
 
 \begin{figure}[H]
-	\centering \includegraphics[width=0.60\textwidth]{images/e4.png}
-	\caption{Probabilidad de vida Ejemplo 4}
+	\centering \includegraphics[width=0.90\textwidth]{images/e4.png}
+	\caption{Probabilidad de vida Ejemplo 3}
 	\label{fig:e4}
 \end{figure}
+
+
 
 \subsection{API y Aplicación Web}
 
 A continuación se puede observar los resultados obtenidos al utilizar el sistema para predecir la probabilidad de deserción de un cliente dada una lista de transacciones del mismo.
 
-	Esta prueba verifica que la integración entre la aplicación web y la API funciona correctamente y que el sistema está cumpliendo con la funcionalidad esperada.
+	Esta prueba verifica que la integración entre la aplicación web y la API funciona correctamente y que el sistema está cumpliendo con la funcionalidad esperada (Ver Figura \ref{fig:ui2}).
 	
 \begin{figure}[H]
-	\centering \includegraphics[width=0.60\textwidth]{images/7.png}
+	\centering \includegraphics[width=0.80\textwidth]{images/7.png}
 	\caption{Interfaz con resultados}
 	\label{fig:ui2}
 \end{figure}

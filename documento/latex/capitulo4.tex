@@ -221,7 +221,7 @@ const result = ref({} as {
 })
 \end{lstlisting}	
 
-Cuando el usuario presiona el botón "Registrar" se ejecuta la función "addTransaction", la cual se encarga de validar y registrar una transacción, su implementación es la siguiente:
+Cuando el usuario presiona el botón \"Registrar\" se ejecuta la función \"addTransaction\", la cual se encarga de validar y registrar una transacción, su implementación es la siguiente:
 
 \begin{lstlisting}[language=C++, caption=addTransaction en index.vue]
 function addTransaction () {
@@ -265,7 +265,7 @@ function addTransaction () {
 }
 \end{lstlisting}	
 
-Luego de agregar una transacción, se genera una tabla en la interfaz donde se puede ver la información registrada. En cada entrada de la tabla existe un botón para eliminar la transacción que al ser accionado por el usuario ejecuta la función "removeTransaction" que tiene la siguiente implementación:
+Luego de agregar una transacción, se genera una tabla en la interfaz donde se puede ver la información registrada. En cada entrada de la tabla existe un botón para eliminar la transacción que al ser accionado por el usuario ejecuta la función \"removeTransaction\" que tiene la siguiente implementación:
 
 \begin{lstlisting}[language=C++, caption=removeTransaction en index.vue]
 function removeTransaction (id: number) {
@@ -279,7 +279,7 @@ function removeTransaction (id: number) {
 }
 \end{lstlisting}	
 
-Luego de que el usuario registre las transacciones que desee, acciona el botón "Predecir" el cual ejecuta la función "predict" y tiene la siguiente lógica:
+Luego de que el usuario registre las transacciones que desee, acciona el botón \"Predecir\" el cual ejecuta la función \"predict\" y tiene la siguiente lógica:
 
 \begin{lstlisting}[language=C++, caption=predict en index.vue]
 async function predict () {
@@ -371,8 +371,8 @@ El resultado se muestra en gráficos generados mediante la biblioteca Chart.js, 
     </div>
 \end{lstlisting}	
 
-Finalmente, obtenemos una interfaz completa que cumple con los requerimientos del capitulo anterior y se puede ver en la figura a continuación.
-
+Finalmente, obtenemos una interfaz completa (Ver Figura \ref{fig:ui_end}) que cumple con los requerimientos del capitulo anterio.
+`
 \begin{figure}[H]
 	\centering \includegraphics[width=0.90\textwidth]{images/2.png}
 	\caption{Vista Index}
