@@ -1,80 +1,81 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducción}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Antecedentes}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Planteamiento del problema}{6}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Justificación}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objetivos}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Metodología}{8}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Alcances}{9}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Marco Referencial}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}E-Commerce}{10}{section.2.1}%
-\contentsline {subsubsection}{Cliente}{10}{section*.2}%
-\contentsline {subsubsection}{Pedido}{11}{section*.3}%
-\contentsline {subsubsection}{Negocio Contractual}{11}{section*.4}%
-\contentsline {subsubsection}{Negocio No Contractual}{11}{section*.5}%
-\contentsline {subsubsection}{Deserción de Clientes (Churn)}{11}{section*.6}%
-\contentsline {subsubsection}{Valor de vida útil de un cliente (CLV)}{12}{section*.7}%
-\contentsline {section}{\numberline {2.2}Modelo}{12}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Modelo Estadístico}{12}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Modelos Buy-Till-You-Die (BTYD)}{12}{subsection.2.2.2}%
-\contentsline {subsubsection}{Modelado Probabilístico}{13}{section*.8}%
-\contentsline {subsubsection}{Tabla de pedidos}{13}{section*.9}%
-\contentsline {subsubsection}{Análisis RFM}{13}{section*.10}%
-\contentsline {subsection}{\numberline {2.2.3}Modelo Pareto / NBD}{14}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Modelo BG / NBD}{15}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Data}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Dataset}{17}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Herramientas Tecnológicas}{17}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Python}{17}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Biblioteca Lifetimes}{18}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Biblioteca Pandas}{18}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Biblioteca MatplotLib}{18}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Jupyter Notebook}{18}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Flask}{18}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}Javascript}{19}{subsection.2.4.7}%
-\contentsline {subsection}{\numberline {2.4.8}Typescript}{19}{subsection.2.4.8}%
-\contentsline {subsection}{\numberline {2.4.9}Vue.js}{19}{subsection.2.4.9}%
-\contentsline {subsection}{\numberline {2.4.10}Nuxt}{20}{subsection.2.4.10}%
-\contentsline {subsection}{\numberline {2.4.11}Chart.js}{20}{subsection.2.4.11}%
-\contentsline {chapter}{\numberline {3}Análisis, Planificación y Diseño del Sistema}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Análisis y Definición del Modelo}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Arquitectura del Sistema}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Requerimientos}{24}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Modelo}{24}{subsection.3.3.1}%
-\contentsline {subsubsection}{Requerimientos Funcionales}{24}{section*.11}%
-\contentsline {subsubsection}{Requerimientos no Funcionales}{24}{section*.12}%
-\contentsline {subsection}{\numberline {3.3.2}API}{25}{subsection.3.3.2}%
-\contentsline {subsubsection}{Requerimientos Funcionales}{25}{section*.13}%
-\contentsline {subsubsection}{Requerimientos no Funcionales}{25}{section*.14}%
-\contentsline {subsection}{\numberline {3.3.3}Aplicación Web}{26}{subsection.3.3.3}%
-\contentsline {subsubsection}{Requerimientos Funcionales}{26}{section*.15}%
-\contentsline {subsubsection}{Requerimientos no Funcionales}{26}{section*.16}%
-\contentsline {section}{\numberline {3.4}Diseño de Interfaz de Usuario}{26}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Desarrollo e Implementación}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Implementación de Módulos}{29}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Modelo}{29}{subsection.4.1.1}%
-\contentsline {subsubsection}{Instalación de dependencias}{29}{section*.17}%
-\contentsline {subsubsection}{Cargar el Dataset}{30}{section*.18}%
-\contentsline {subsubsection}{Preprocesamiento de los Datos}{31}{section*.19}%
-\contentsline {subsubsection}{Formato de datos RFM}{32}{section*.20}%
-\contentsline {subsubsection}{Ajustar el modelo}{32}{section*.21}%
-\contentsline {subsubsection}{Guardar modelo}{32}{section*.22}%
-\contentsline {subsection}{\numberline {4.1.2}API}{33}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Aplicación Web}{35}{subsection.4.1.3}%
-\contentsline {chapter}{\numberline {5}Pruebas y Resultados}{42}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Pruebas de Módulos}{42}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Modelo}{42}{subsection.5.1.1}%
-\contentsline {subsubsection}{Matriz de Frecuencia, Recencia y Compras Esperadas}{42}{section*.23}%
-\contentsline {subsubsection}{Matriz de Frecuencia, Recencia y Probabilidad de vida}{44}{section*.24}%
-\contentsline {subsubsection}{Evaluación del ajuste del modelo}{44}{section*.25}%
-\contentsline {subsubsection}{Validación Cruzada}{45}{section*.26}%
-\contentsline {subsection}{\numberline {5.1.2}API}{47}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Aplicación Web}{47}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Resultados}{48}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Modelo}{49}{subsection.5.2.1}%
-\contentsline {subsubsection}{Ejemplo 1}{49}{section*.27}%
-\contentsline {subsubsection}{Ejemplo 2}{50}{section*.28}%
-\contentsline {subsubsection}{Ejemplo 3}{50}{section*.29}%
-\contentsline {subsection}{\numberline {5.2.2}API y Aplicación Web}{51}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Recomendaciones}{53}{chapter.6}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{55}{section*.30}%
+\contentsline {chapter}{Resumen}{2}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introducción}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Antecedentes}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Justificación}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objetivos}{9}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Metodología}{10}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Alcances}{11}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Marco Referencial}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}E-Commerce}{12}{section.2.1}%
+\contentsline {subsubsection}{Cliente}{12}{section*.3}%
+\contentsline {subsubsection}{Pedido}{13}{section*.4}%
+\contentsline {subsubsection}{Negocio Contractual}{13}{section*.5}%
+\contentsline {subsubsection}{Negocio No Contractual}{13}{section*.6}%
+\contentsline {subsubsection}{Deserción de Clientes (Churn)}{13}{section*.7}%
+\contentsline {subsubsection}{Valor de vida útil de un cliente (CLV)}{14}{section*.8}%
+\contentsline {section}{\numberline {2.2}Modelo}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Modelo Estadístico}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Modelos Buy-Till-You-Die (BTYD)}{14}{subsection.2.2.2}%
+\contentsline {subsubsection}{Modelado Probabilístico}{15}{section*.9}%
+\contentsline {subsubsection}{Tabla de pedidos}{15}{section*.10}%
+\contentsline {subsubsection}{Análisis RFM}{15}{section*.11}%
+\contentsline {subsection}{\numberline {2.2.3}Modelo Pareto / NBD}{16}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Modelo BG / NBD}{17}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Data}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Dataset}{19}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Herramientas Tecnológicas}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Python}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Biblioteca Lifetimes}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Biblioteca Pandas}{20}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Biblioteca MatplotLib}{20}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Jupyter Notebook}{20}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Flask}{20}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Javascript}{21}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Typescript}{21}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Vue.js}{21}{subsection.2.4.9}%
+\contentsline {subsection}{\numberline {2.4.10}Nuxt}{22}{subsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.4.11}Chart.js}{22}{subsection.2.4.11}%
+\contentsline {chapter}{\numberline {3}Análisis, Planificación y Diseño del Sistema}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Análisis y Definición del Modelo}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Arquitectura del Sistema}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Requerimientos}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Modelo}{26}{subsection.3.3.1}%
+\contentsline {subsubsection}{Requerimientos Funcionales}{26}{section*.12}%
+\contentsline {subsubsection}{Requerimientos no Funcionales}{26}{section*.13}%
+\contentsline {subsection}{\numberline {3.3.2}API}{27}{subsection.3.3.2}%
+\contentsline {subsubsection}{Requerimientos Funcionales}{27}{section*.14}%
+\contentsline {subsubsection}{Requerimientos no Funcionales}{27}{section*.15}%
+\contentsline {subsection}{\numberline {3.3.3}Aplicación Web}{28}{subsection.3.3.3}%
+\contentsline {subsubsection}{Requerimientos Funcionales}{28}{section*.16}%
+\contentsline {subsubsection}{Requerimientos no Funcionales}{28}{section*.17}%
+\contentsline {section}{\numberline {3.4}Diseño de Interfaz de Usuario}{28}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Desarrollo e Implementación}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Implementación de Módulos}{31}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modelo}{31}{subsection.4.1.1}%
+\contentsline {subsubsection}{Instalación de dependencias}{31}{section*.18}%
+\contentsline {subsubsection}{Cargar el Dataset}{32}{section*.19}%
+\contentsline {subsubsection}{Preprocesamiento de los Datos}{33}{section*.20}%
+\contentsline {subsubsection}{Formato de datos RFM}{34}{section*.21}%
+\contentsline {subsubsection}{Ajustar el modelo}{34}{section*.22}%
+\contentsline {subsubsection}{Guardar modelo}{34}{section*.23}%
+\contentsline {subsection}{\numberline {4.1.2}API}{35}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Aplicación Web}{37}{subsection.4.1.3}%
+\contentsline {chapter}{\numberline {5}Pruebas y Resultados}{44}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Pruebas de Módulos}{44}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Modelo}{44}{subsection.5.1.1}%
+\contentsline {subsubsection}{Matriz de Frecuencia, Recencia y Compras Esperadas}{44}{section*.24}%
+\contentsline {subsubsection}{Matriz de Frecuencia, Recencia y Probabilidad de vida}{46}{section*.25}%
+\contentsline {subsubsection}{Evaluación del ajuste del modelo}{46}{section*.26}%
+\contentsline {subsubsection}{Validación Cruzada}{47}{section*.27}%
+\contentsline {subsection}{\numberline {5.1.2}API}{49}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Aplicación Web}{49}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Resultados}{50}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Modelo}{51}{subsection.5.2.1}%
+\contentsline {subsubsection}{Ejemplo 1}{51}{section*.28}%
+\contentsline {subsubsection}{Ejemplo 2}{52}{section*.29}%
+\contentsline {subsubsection}{Ejemplo 3}{52}{section*.30}%
+\contentsline {subsection}{\numberline {5.2.2}API y Aplicación Web}{53}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Recomendaciones}{55}{chapter.6}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{57}{section*.31}%
